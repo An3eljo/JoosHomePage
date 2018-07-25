@@ -1,0 +1,25 @@
+﻿.centerBoth {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url('../img/programming_background_01.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.labelChooseSite {
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+    background: gray;
+    background: rgba(128,182,182,0.8);
+}
